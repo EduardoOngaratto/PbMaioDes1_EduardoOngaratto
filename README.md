@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Programa para Gerar uma Sequências de Bolas
 
 Este programa foi desenvolvido em JavaScript e Node.js. Ele gera sequências de bolas com cores aleatórias com base em suas probabilidades e armazena essas sequências em um arquivo de texto. 
@@ -32,4 +32,4 @@ Para rodar o programa, siga estas estas etapas:
 Você pode personalizar o programa alterando os parâmetros, como o número de sequências a serem geradas ou as cores e pesos das bolas.
 =======
 
->>>>>>> 909508da5070124abf01aae670f1969549218268
+
