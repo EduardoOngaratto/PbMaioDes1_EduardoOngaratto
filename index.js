@@ -9,7 +9,7 @@ const bolas = [
   { cor: "vermelho", peso: 5 },
 ];
 
-//função para escolher uma bola de acordo com a quantida (pesos)
+//função para escolher uma bola de acordo com a quantidade (pesos)
 function escolherBola() {
   const totalPeso = bolas.reduce((total, bola) => total + bola.peso, 0);
   const escolha = Math.random() * totalPeso;
@@ -59,7 +59,6 @@ for (let i = 0; i < linhas.length; i++) {
   }
 }
 
-// Exibir o resultado no console
 for (let cor in contagem) {
   console.log(cor + ": " + contagem[cor]);
 }
