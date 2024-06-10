@@ -30,6 +30,6 @@ Para rodar o programa, siga estas estas etapas:
 
 ## Personalização do Programa (Opcional)
 Você pode personalizar o programa alterando os parâmetros, como o número de sequências a serem geradas ou as cores e pesos das bolas.
-=======
+
 
 
