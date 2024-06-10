@@ -59,6 +59,8 @@ for (let i = 0; i < linhas.length; i++) {
   }
 }
 
-for (let cor in contagem) {
-  console.log(cor + ": " + contagem[cor]);
-}
+// Contagem de cores no console
+console.log(`Verde: ${contagem.verde}`);
+console.log(`Azul: ${contagem.azul}`);
+console.log(`Amarelo: ${contagem.amarelo}`);
+console.log(`Vermelho: ${contagem.vermelho}`);
