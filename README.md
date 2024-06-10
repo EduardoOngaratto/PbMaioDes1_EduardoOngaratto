@@ -14,9 +14,7 @@ Para rodar o programa, siga estas estas etapas:
 
 2. **Acessar o Diretório do Projeto:**
    - Navegue para o diretório do projeto usando o terminal:
-     ```
-     cd nome-do-repositorio
-     ```
+    
 
 4. **Rodar o Programa:**
    - Após, você pode rodar o programa com o seguinte comando:
