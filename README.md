@@ -29,5 +29,5 @@ Para rodar o programa, siga estas estas etapas:
 ## Personalização do Programa (Opcional)
 Você pode personalizar o programa alterando os parâmetros, como o número de sequências a serem geradas ou as cores e pesos das bolas.
 
-
+![Logo do Projeto](https://s3.sa-east-1.amazonaws.com/remotar-assets-prod/company-profile-covers/cl7god9gt00lx04wg4p2a93zt.jpg)
 
