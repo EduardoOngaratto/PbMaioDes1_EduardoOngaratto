@@ -1,7 +1,7 @@
-//importar modulo interno (core modulo) fs para escrever em um arquivo txt
+// Importando o modulo interno (core modulo) fs para escrever em um arquivo txt
 const fs = require("fs");
 
-//criando as bolas e suas probabilidades
+// Criando as bolas e suas probabilidades
 const bolas = [
   { cor: "verde", peso: 1 },
   { cor: "azul", peso: 2 },
@@ -9,7 +9,7 @@ const bolas = [
   { cor: "vermelho", peso: 5 },
 ];
 
-//função para escolher uma bola de acordo com a quantidade (pesos)
+// Criando uma função para escolher uma bola de acordo com o pesos
 function escolherBola() {
   const totalPeso = bolas.reduce((total, bola) => total + bola.peso, 0);
   const escolha = Math.random() * totalPeso;
@@ -23,7 +23,7 @@ function escolherBola() {
   }
 }
 
-// Função para gerar a sequencia de 4 bolas
+// Criando uma função para gerar uma sequencia de 4 bolas
 function gerararrSequencia() {
   let arrSequencia = [];
   for (let i = 0; i < 4; i++) {
@@ -32,7 +32,7 @@ function gerararrSequencia() {
   return arrSequencia.join(",");
 }
 
-// Gerar a sequências e escrever no arquivo
+// Gerando uma sequências e escrevendo no arquivo
 let = quantidadeDaSequencia = 1000;
 let arrSequencias = "";
 for (let i = 0; i < quantidadeDaSequencia; i++) {
@@ -41,7 +41,7 @@ for (let i = 0; i < quantidadeDaSequencia; i++) {
 
 fs.writeFileSync("resultado.txt", arrSequencias.trim());
 
-// Ler o arquivo e contabilizar as cores escolhidas
+// Lendo o arquivo e contabilizando as cores escolhidas
 const conteudo = fs.readFileSync("resultado.txt", "utf-8");
 const linhas = conteudo.split("\n");
 
